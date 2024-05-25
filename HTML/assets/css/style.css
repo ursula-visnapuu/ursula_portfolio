@@ -360,11 +360,11 @@ html {
 }
 body {
     height: 100%;
-    font-size: 15px;
-    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    color: #e7e7e7;
     font-weight: 300;
-    line-height: 22px;
-    color: #4c4c4c;
+    line-height: 27px;
 }
 a {
     color: #aaaaaa;
@@ -491,13 +491,19 @@ a:focus {
 }
 .gold-btn {
     color: #fff;
-    background-color: #d0ad55;
-    border-color: #d0ad55;
+    background-image: linear-gradient(
+        to right top,
+        #696969,
+        #8c8c8c,
+        #b1b1b1,
+        #d7d7d7,
+        #ffffff
+    );
 }
 .gold-btn:hover {
     color: #fff;
     background-color: #d8ba6f;
-    border-color: #d8ba6f;
+    border-color: #696969;
 }
 /*loader*/
 .spinner {
@@ -618,77 +624,11 @@ about {
     padding-bottom: 200px;
     background-size: cover;
 }
-#service_bg {
-    background: url("../img/header_bg/image2.jpg") 50% 0 no-repeat fixed;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-size: cover;
-}
-#projects_bg {
-    background: url("../img/header_bg/image3.jpg") 50% 0 no-repeat fixed;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-size: cover;
-}
-#blog_bg {
-    color: #fff;
-    background: url("../img/header_bg/image4.jpg") 50% 0 no-repeat fixed;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-size: cover;
-}
-#blog2_bg {
-    color: #fff;
-    background: url("../img/header_bg/image5.jpg") 50% 0 no-repeat fixed;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-size: cover;
-}
 
 /* ----------------------------------------------------
 	4) SERVICES STYLES
 ------------------------------------------------------- */
 
-#service_inner {
-    color: #fff;
-    background: url("../img/header_bg/service_bg.jpg") 50% 0 no-repeat fixed;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-size: cover;
-}
-.price-table {
-    background-color: #f2f2f2;
-    border: 3px solid #f2f2f2;
-    border-radius: 0;
-    padding-bottom: 20px;
-}
-.price-table:hover {
-    border: 3px solid #d0ad55;
-}
-.price-table h3 {
-    text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
-    font-size: 22px;
-    font-weight: 300;
-    letter-spacing: 5px;
-}
-.price-table h1 {
-    text-transform: uppercase;
-    margin: 0;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    letter-spacing: 5px;
-}
-.price-table small {
-    text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    letter-spacing: 3px;
-}
-.price-table p {
-    color: #999;
-    line-height: 40px;
-}
 /* Index Services Styles */
 .service-box p {
     margin-left: 25px;
@@ -735,7 +675,7 @@ about {
 }
 .about-caption h3 {
     font-family: "Raleway", sans-serif;
-    color: #282828;
+    color: #e7e7e7;
     vertical-align: middle;
     margin: 0;
     margin-bottom: 13px;
